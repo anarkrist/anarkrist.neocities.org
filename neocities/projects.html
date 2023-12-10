@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+  <title>kris on the git</title>
+  <meta charset="utf-8"/>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+  <script>
+    window.onload = function() {
+      var date = new Date();
+      document.getElementById('date').textContent = date.getDate()+"."+(date.getMonth() + 1)+"."+date.getFullYear()
+    }
+  </script>
+</head>
+
+<body>
+  <div class="contain">
+    <div class="nav">
+      <h2>Kris' site</h2>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li style="font-style: italic;">Projects</li>
+        <li><a href="./about.html">About me</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+      <span id="date"></span>
+    </div>
+    <div class="main">
+      <h2>My projects</h2>
+        <p>As a supposed "developer" as well as a supposed "artist",</p>
+        <p>I have some projects that ive worked on</p>
+        <p>Not all of them (really even most of them) are that involved though</p>
+      <br/>
+      <a href="https://ncb0.work/"><img class="kren" src="./images/kren.png" title="art credit: ncb0 (mel marshall)" alt="image of a bird woman"/></a>
+      <h3><a href="https://github.com/anarkrist/k-ren">K-ren</a></h3>
+        <p>K-ren is a Discord bot thats like partially based on 2 year old code but not really anymore</p>
+        <p>It can use commands as modules so its like a proper thing it does best practice (i guess)</p>
+      <br/>
+        <h2>Artwork</h2>
+       <p>My art is not very good but people say it is anyway</p>
+       <p>If you'd like to see it my old stuff is on <a href="https://deviantart.com/exeightysix">DeviantART</a>,</p>
+       <p>and new things I post on <a href="https://twitter.com/anarkrist">Twitter</a></p>
+       <br><br>
+       <h2><a href="./projects/vsinst.html">I made a page with some proper links to Visual Studio's installers,</a></h2>
+         <h3>'cause Microsoft loves making things harder to do for some reason</h3>
+      </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+  <title>kris on the index</title>
+  <meta charset="utf-8"/>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+  <script>
+    window.onload = function() {
+      var date = new Date();
+      document.getElementById('date').textContent = date.getDate()+"."+(date.getMonth() + 1)+"."+date.getFullYear()
+    }
+  </script>
+</head>
+
+<body>
+  <div class="contain">
+    <div class="nav">
+      <h2>Kris' site</h2>
+      <ul>
+        <li style="font-style: italic;">Home</li>
+        <li><a href="./projects.html">Projects</a></li>
+        <li><a href="./about.html">About me</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+      <span id="date"></span>
+    </div>
+    <div class="main">
+      <h2>This is a website</h2>
+        <p>I'm Kris, welcome to my site</p>
+        <p>Use Tha Links to navigate it silly</p><br/>
+        <p>Last Updated 10.12.2023</p><br/>
+      <h6>this site uses <a href="https://github.com/microsoft/selawik">Selawik</a>, an open-source font by Microsoft, redistributed under the Open Font Licence 1.1<br/>
+      images used on this site are, in general, either created by me, or credited to their creator, if and when possible<br/>
+      fork this page <a href="https://github.com/anarkrist/anarkrist.neocities.org">on GitHub</a>, why don't you</h6><br/>
+        <a href="https://neocities.org">
+          <img src="./images/webpassion.gif" alt="an image advertising neocities.org" title="this site is built on Neocities!"/>
+        </a>
+        <a href="https://natalietchi.neocities.org">
+          <img src="https://pogo-online.com/img/pogo-online.gif" alt="an image of a happy cat" title="visit my friend Natalie's site!"/>
+        </a>
+      <br>
+      <p>todo: make site button (like above,) create characters page(s), create art gallery page</p>
+      <a rel="me" href="https://yiff.life/@anarkrist"><!--mastodon verification--></a>
+    </div>
+  </div>
+</body>
+
+</html>

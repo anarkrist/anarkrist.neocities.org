@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+  <title>kris on the them</title>
+  <meta charset="utf-8"/>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+  <script>
+    window.onload = function() {
+      let date = new Date();
+      let bd = new Date(2002,12,26);       
+      document.getElementById('age').textContent = date.getFullYear() - bd.getFullYear();
+      document.getElementById('date').textContent = date.getDate()+"."+(date.getMonth() + 1)+"."+date.getFullYear()
+    }
+  </script>
+</head>
+
+<body>
+  <div class="contain">
+    <div class="nav">
+      <h2>Kris' site</h2>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./projects.html">Projects</a></li>
+        <li style="font-style: italic;">About me</li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+      <span id="date"></span>
+    </div>
+    <div class="main">
+      <h2>A boat me</h2>
+        <img class="boat" src="./images/boat.png" title="art credit: me, its bad on purpose i swear." alt="image of a rabbit in a boat"/><br/>
+        <span>My name is Kris Jones and I'm </span><span id="age"></span><span> years old.</span>
+        <p>I live around Dayton, OH in the United States.</p>
+        <p>I am <a href="https://lgbtqia.fandom.com/wiki/Genderflux#Agenderflux">Agenderflux</a> (link clicky)</p>
+        <p>and <a href="https://lgbtqia.fandom.com/wiki/Asexual_spectrum#Aegosexual">Autochorissexual</a> (link clicky 2)</p>
+        <p>I use they/them/their pronouns.</p>
+        <p>More specific language preferences can be found at my <a href="https://pronouns.page/@anarkrist">pronouns.page</a>.</p>
+        <p>I have combined-type Attention Deficit Hyperactivity Disoder (ADHD-C) and Generalised Anxiety Disorder (GAD).</p><br/>
+      <h2>Hobbies</h2>
+        <h3>I like to do:</h3>
+          <p>Computer programming</p>
+          <p>Digital art</p>
+          <p>Listen to music</p>
+          <p>(and want to make some someday)</p>
+          <p>Play video games sometimes</p>
+          <p>(also wanna make one sometime perhaps)</p>
+          <p>Web video</p>
+          <p>(watching and may make some sometime)</p><br/>
+        <h3>Specific interests:</h3>
+          <p>Programming: Web ([X]HTML/CSS, web JS), JS (Node),</p>
+          <p>dotNET (and Core) [C#, including ASP]</p><br/>
+          <p>Digital art: Furries, abstract, graphic-design,</p>
+          <p>I guess font design goes here</p><br/>
+          <p>Music: Punk rock, Alternative rock, Indie rock, Britpop</p>
+          <p>[Bands: Rise Against, Blur, blink-182, Green Day, Biffy Clyro, Stereophonics,</p>
+          <p>Ima Robot, Less Than Jake, Linkin Park, Billy Talent, some more I can't remember]</p><br/>
+          <p>Video games: Story-based (Night in the Woods, Oneshot),</p>
+          <p>Arcade (Metal Slug, Ninjin), Puzzle (Puyo Puyo, Tetris),</p>
+          <p>Fighting (Rivals of Aether, MUGEN),</p>
+          <p>Racing (Forza Horizon, DiRT, Mario Kart)</p><br/>
+          <p>Podcasts: Well There's Your Problem, Trashfuture, Lions Led by Donkeys, What a Hell of a Way to Die, Ten Thousand Posts, 5-4</p>
+          <p>Web video: Video-essay-style work (Hbomberguy, Tom Scott, Thought Slime), Games streamers (Vinesauce, TieTuesday),</p>
+          <p>General news-journalism and games-journalism (Vox, Polygon, James Stephanie Sterling), Lettuce Play (Bikdiponabus, TRG)</p><br/>
+        <h2><a href="./about/systems.html">I've put my systems section on another page,</a></h2>
+        <h3>for the sake of keeping this page shorter</h3>
+      </div>
+  </div>
+</body>
+
+</html>
